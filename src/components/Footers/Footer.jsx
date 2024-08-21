@@ -69,7 +69,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.creative-tim.com/presentation?ref=nr-footer"
                       >
-                        About Us
+                        Sobre nosotros
                       </a>
                     </li>
                     <li>
@@ -116,7 +116,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/terms?ref=nr-footer"
                       >
-                        Terms & Conditions
+                        Termimos y condiciones
                       </a>
                     </li>
                     <li>
@@ -124,7 +124,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/privacy?ref=nr-footer"
                       >
-                        Privacy Policy
+                        Politica de privacidad
                       </a>
                     </li>
                     <li>
@@ -132,7 +132,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://creative-tim.com/contact-us?ref=nr-footer"
                       >
-                        Contact Us
+                        Contactanos
                       </a>
                     </li>
                   </ul>

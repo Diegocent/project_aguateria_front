@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 // components
 
-import PagesDropdown from "components/Dropdowns/PagesDropdown.js";
+import PagesDropdown from "components/Dropdowns/PagesDropdown";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -56,7 +56,7 @@ export default function Navbar(props) {
                   target="_blank"
                 >
                   <i className="lg:text-blueGray-200 text-blueGray-400 fab fa-facebook text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Share</span>
+                  <span className="lg:hidden inline-block ml-2">Compartir</span>
                 </a>
               </li>
 
@@ -87,7 +87,7 @@ export default function Navbar(props) {
                   className="bg-white text-blueGray-700 active:bg-blueGray-50 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                   type="button"
                 >
-                  <i className="fas fa-arrow-alt-circle-down"></i> Download
+                  <i className="fas fa-arrow-alt-circle-down"></i> Descarga
                 </button>
               </li>
             </ul>

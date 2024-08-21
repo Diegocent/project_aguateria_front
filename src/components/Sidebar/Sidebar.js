@@ -2,8 +2,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import NotificationDropdown from "components/Dropdowns/NotificationDropdown.js";
-import UserDropdown from "components/Dropdowns/UserDropdown.js";
+import NotificationDropdown from "components/Dropdowns/NotificationDropdown";
+import UserDropdown from "components/Dropdowns/UserDropdown";
 
 export default function Sidebar() {
   const [collapseShow, setCollapseShow] = React.useState("hidden");
@@ -124,7 +124,7 @@ export default function Sidebar() {
                         : "text-blueGray-300")
                     }
                   ></i>{" "}
-                  Settings
+                  Configuracion
                 </Link>
               </li>
 
@@ -146,7 +146,7 @@ export default function Sidebar() {
                         : "text-blueGray-300")
                     }
                   ></i>{" "}
-                  Tables
+                  Tablas
                 </Link>
               </li>
 
@@ -168,7 +168,7 @@ export default function Sidebar() {
                         : "text-blueGray-300")
                     }
                   ></i>{" "}
-                  Maps
+                  Mapas
                 </Link>
               </li>
             </ul>
@@ -237,7 +237,7 @@ export default function Sidebar() {
             <hr className="my-4 md:min-w-full" />
             {/* Heading */}
             <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
-              Documentation
+              Documentacion
             </h6>
             {/* Navigation */}
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
